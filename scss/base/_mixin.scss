@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+// Flexコンテナ用定義 : 横-左詰め-折り返しなし
+@mixin flex-row-left-padding() {
+    display: flex;
+    flex-direction: row;            // 横方向（左から）
+    flex-wrap: nowrap;              // 折り返しなし
+    justify-content: flex-start;    // 左詰め
+}

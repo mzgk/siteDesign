@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+.Header {
+    max-width: $size-site-width;
+    margin: 0 auto;
+    flex: 1 1 auto;
+
+    @include flex-row-left-padding;
+
+    &__head {
+        flex: 4 1 800px;            // タイトル幅比率 : 4
+        align-self: center;
+    }
+    &__body {
+        flex: 1 1 200px;            // ナビ幅比率 : 1
+        align-self: flex-end;
+    }
+    &__title {
+        font-size: 32px;
+        color: $color-main-white;
+    }
+    &__title a {
+        color: $color-main-white;
+    }
+    &__subTitle {
+        font-size: 16px;
+        color: $color-sub-white;
+    }
+}
+
+.Navi {
+    @include flex-row-left-padding;
+    justify-content: space-between; // 均等で上書き
+    &__item {
+        font-size: 28px;
+        padding-bottom: 20px;
+    }
+    &__item a {
+        color: $color-main-white;
+    }
+}

@@ -11,29 +11,25 @@
 // ===========================
 
 .HeaderContainer {
-    height: 128px;
-    background: #434a54;
+    height: $size-header-height;
+    background: $color-theme-main;
+
+    @include flex-row-left-padding;
 }
 
 
 .ContentsContainer {
-    max-width: 1000px;
+    max-width: $size-site-width;
     min-height: 500px;
     margin: 0 auto;
 
-    display: flex;
-    flex-direction: row;            // 横方向（左から）
-    flex-wrap: nowrap;              // 折り返しなし
-    justify-content: flex-start;    // 左詰め
-    align-items: stretch;           // flexアイテムを引き延ばす
+    @include flex-row-left-padding;
 }
 
 
 .MainContainer {
     background: #3498db;
     flex: 4 1 auto;                 // Main幅比率 : 4
-
-    margin-right: 20px;
 }
 
 
@@ -44,6 +40,6 @@
 
 
 .FooterContainer {
-    height: 128px;
+    height: $size-header-height;
     background: #95a5a6;
 }
