@@ -28,14 +28,12 @@
 
 
 .MainContainer {
-    background: #3498db;
-    flex: 4 1 auto;                 // Main幅比率 : 4
+    flex: 4 1 $size-site-width/5*4;                 // Main幅比率 : 4
 }
 
 
 .SubContainer {
-    background: #1abc9c;
-    flex: 1 1 auto;                 // Sub幅比率 : 1
+    flex: 1 1 $size-site-width/5;                 // Sub幅比率 : 1
 }
 
 

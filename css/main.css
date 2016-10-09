@@ -2397,9 +2397,17 @@ textarea,
 * {
   box-sizing: border-box; }
 
+.AreaTitle {
+  border-left: 4px solid #43abc9;
+  margin: 40px 20px 20px 0;
+  padding: 4px 0 4px 4px;
+  font-size: 24px;
+  line-height: 1.25;
+  color: #707c80; }
+
 .HeaderContainer {
   height: 128px;
-  background: #434a54;
+  background: #0d3d56;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -2415,12 +2423,10 @@ textarea,
   justify-content: flex-start; }
 
 .MainContainer {
-  background: #3498db;
-  flex: 4 1 auto; }
+  flex: 4 1 800px; }
 
 .SubContainer {
-  background: #1abc9c;
-  flex: 1 1 auto; }
+  flex: 1 1 200px; }
 
 .FooterContainer {
   height: 128px;
@@ -2447,7 +2453,7 @@ textarea,
     color: #fff; }
   .Header__subTitle {
     font-size: 16px;
-    color: #d9d9d9; }
+    color: #dadedf; }
 
 .Navi {
   display: flex;
@@ -2460,5 +2466,19 @@ textarea,
     padding-bottom: 20px; }
   .Navi__item a {
     color: #fff; }
+
+.ListItem {
+  border-bottom: 1px solid #c1c7c9;
+  margin: 0 20px 20px 0;
+  padding: 0 0 20px 0; }
+  .ListItem:last-child {
+    border-bottom: none; }
+  .ListItem__head {
+    font-size: 18px;
+    color: #555f61; }
+  .ListItem__body {
+    font-size: 14px;
+    color: #707c80;
+    margin: 8px 0 0 0; }
 
 /*# sourceMappingURL=main.css.map */
