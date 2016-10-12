@@ -12,4 +12,5 @@
         flex-basis: 45%;
         text-align: right;
     }
+    @include link-active;
 }

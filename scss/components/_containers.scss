@@ -21,7 +21,6 @@
 
 .ContentsContainer {
     max-width: $size-site-width;
-    // min-height: 500px;
     margin: 0 auto;
 
     @include flex-row-nowrap;

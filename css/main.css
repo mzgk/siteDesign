@@ -2399,9 +2399,13 @@ textarea,
   box-sizing: border-box; }
 
 a {
-  color: #24aaef; }
+  color: #555f61; }
   a:hover {
     color: #f23d4c; }
+
+li {
+  margin-left: 1rem;
+  line-height: 2; }
 
 .AreaTitle {
   border-left: 4px solid #24aaef;
@@ -2473,20 +2477,24 @@ a {
 
 .ListItem {
   border-bottom: 1px solid #c1c7c9;
-  margin: 0 20px 20px 0;
+  margin: 0 60px 20px 0;
   padding: 0 0 20px 0; }
   .ListItem:last-of-type {
     border-bottom: none;
-    margin: 0 20px 0 0; }
+    margin: 0 60px 0 0; }
   .ListItem__head {
     font-size: 18px; }
   .ListItem__body {
     font-size: 14px;
     color: #707c80;
     margin: 8px 0 0 0; }
+    .ListItem__body a {
+      color: #24aaef; }
+    .ListItem__body a:hover {
+      color: #f23d4c; }
 
 .Pagenation {
-  margin: 40px 20px 0 0;
+  margin: 40px 60px 0 0;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -2496,6 +2504,10 @@ a {
   .Pagenation__newer {
     flex-basis: 45%;
     text-align: right; }
+  .Pagenation a {
+    color: #24aaef; }
+  .Pagenation a:hover {
+    color: #f23d4c; }
 
 .Footer {
   color: #707c80; }
@@ -2508,5 +2520,16 @@ a {
   .Footer__body {
     margin: 12px 0 0 0;
     text-align: center; }
+    .Footer__body a {
+      color: #24aaef; }
+    .Footer__body a:hover {
+      color: #f23d4c; }
+
+.SubItem {
+  margin: 0 0 0 10px; }
+  .SubItem ul {
+    list-style: none; }
+  .SubItem li {
+    margin-left: 0; }
 
 /*# sourceMappingURL=main.css.map */

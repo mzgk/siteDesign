@@ -6,3 +6,12 @@
     flex-direction: row;
     flex-wrap: nowrap;
 }
+
+@mixin link-active() {
+    a {
+        color: $color-active-link;
+    }
+    a:hover {
+        color: $color-hover-link;
+    }
+}

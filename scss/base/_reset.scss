@@ -15,8 +15,13 @@
 }
 
 a {
-    color: $color-base-link;
+    color: $color-main-text;
     &:hover {
         color: $color-hover-link;
     }
+}
+
+li {
+    margin-left: 1rem;
+    line-height: 2;
 }
