@@ -5,10 +5,17 @@
 
 :root {
     font-family: "Monda", "Noto Sans JP", sans-serif;
-    letter-spacing: 0.15rem;
+    letter-spacing: 0.12rem;
 }
 
 // paddingとborderの幅を要素の幅と高さに含める
 * {
     box-sizing: border-box;
+}
+
+a {
+    color: $color-base-link;
+    &:hover {
+        color: $color-hover-link;
+    }
 }

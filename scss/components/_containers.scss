@@ -14,21 +14,23 @@
     height: $size-header-height;
     background: $color-theme-main;
 
-    @include flex-row-left-padding;
+    @include flex-row-nowrap;
+    justify-content: flex-start;
 }
 
 
 .ContentsContainer {
     max-width: $size-site-width;
-    min-height: 500px;
+    // min-height: 500px;
     margin: 0 auto;
 
-    @include flex-row-left-padding;
+    @include flex-row-nowrap;
+    justify-content: flex-start;
 }
 
 
 .MainContainer {
-    flex: 4 1 $size-site-width/5*4;                 // Main幅比率 : 4
+    flex: 4 1 $size-site-width/5*4;               // Main幅比率 : 4
 }
 
 
@@ -38,6 +40,6 @@
 
 
 .FooterContainer {
+    margin: 80px 0 0 0;
     height: $size-header-height;
-    background: #95a5a6;
 }

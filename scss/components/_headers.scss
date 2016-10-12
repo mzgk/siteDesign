@@ -5,7 +5,8 @@
     margin: 0 auto;
     flex: 1 1 auto;
 
-    @include flex-row-left-padding;
+    @include flex-row-nowrap;
+    justify-content: flex-start;
 
     &__head {
         flex: 4 1 $size-site-width/5*4;            // タイトル幅比率 : 4
@@ -29,8 +30,8 @@
 }
 
 .Navi {
-    @include flex-row-left-padding;
-    justify-content: space-between; // 均等で上書き
+    @include flex-row-nowrap;
+    justify-content: space-between;
     &__item {
         font-size: 28px;
         padding-bottom: 20px;
