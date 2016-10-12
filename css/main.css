@@ -2392,7 +2392,8 @@ textarea,
 
 :root {
   font-family: "Monda", "Noto Sans JP", sans-serif;
-  letter-spacing: 0.12rem; }
+  letter-spacing: 0.12rem;
+  color: #555f61; }
 
 * {
   box-sizing: border-box; }
@@ -2478,8 +2479,7 @@ a {
     border-bottom: none;
     margin: 0 20px 0 0; }
   .ListItem__head {
-    font-size: 18px;
-    color: #555f61; }
+    font-size: 18px; }
   .ListItem__body {
     font-size: 14px;
     color: #707c80;
