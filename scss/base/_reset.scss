@@ -25,3 +25,12 @@ li {
     margin-left: 1rem;
     line-height: 2;
 }
+
+// Inlineコード用。Solarized-dark.scssに合わせた
+code {
+    font-family: monospace;
+    font-size: 14px;
+    padding: 0.5em;
+    background: #002b36;
+    color: #839496;
+}

@@ -2407,6 +2407,13 @@ li {
   margin-left: 1rem;
   line-height: 2; }
 
+code {
+  font-family: monospace;
+  font-size: 14px;
+  padding: 0.5em;
+  background: #002b36;
+  color: #839496; }
+
 /*
 
 Orginal Style from ethanschoonover.com/solarized (c) Jeremy Hull <sourdrums@gmail.com>
@@ -2624,9 +2631,6 @@ Orginal Style from ethanschoonover.com/solarized (c) Jeremy Hull <sourdrums@gmai
   .PostItem li {
     margin-left: 2rem;
     line-height: 2; }
-  .PostItem code {
-    font-family: monospace;
-    font-size: 14px; }
   .PostItem table {
     border: 1px solid #c1c7c9;
     border-collapse: collapse;
