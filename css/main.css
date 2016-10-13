@@ -2413,6 +2413,12 @@ code {
   background: #002b36;
   color: #839496; }
 
+p {
+  font-size: 15px;
+  text-align: justify;
+  line-height: 1.8em;
+  letter-spacing: 0.8pt; }
+
 /*
 
 Orginal Style from ethanschoonover.com/solarized (c) Jeremy Hull <sourdrums@gmail.com>
@@ -2571,15 +2577,15 @@ Orginal Style from ethanschoonover.com/solarized (c) Jeremy Hull <sourdrums@gmai
 
 .ListItem {
   border-bottom: 1px solid #c1c7c9;
-  margin: 0 60px 20px 12px;
-  padding: 0 0 20px 0; }
+  margin: 0 60px 24px 12px;
+  padding: 0 0 24px 0; }
   .ListItem:last-of-type {
     border-bottom: none;
     margin: 0 60px 0 10px; }
   .ListItem__head {
     font-size: 18px; }
   .ListItem__body {
-    font-size: 14px;
+    font-size: 15px;
     color: #707c80;
     margin: 8px 0 0 0; }
     .ListItem__body a {
@@ -2624,8 +2630,6 @@ Orginal Style from ethanschoonover.com/solarized (c) Jeremy Hull <sourdrums@gmai
   .PostItem h3 {
     font-size: 18px;
     margin: 8px 0 8px 0; }
-  .PostItem p {
-    line-height: 2; }
   .PostItem li {
     margin-left: 1.5rem;
     line-height: 2; }
