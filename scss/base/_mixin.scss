@@ -15,3 +15,12 @@
         color: $color-hover-link;
     }
 }
+
+@mixin border-left() {
+    border-left: 4px solid $color-left-border;
+    padding: 4px 0 4px 8px;
+}
+
+@mixin header-leftcolumn-margin($left: 0) {
+    margin: 40px $size-margin-2column 20px $left;
+}

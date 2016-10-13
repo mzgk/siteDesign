@@ -14,6 +14,7 @@
 @import "./base/variables";
 @import "./base/reset";
 @import "./base/mixin";
+@import "./base/highlight";
 
 
 // ===========================
@@ -27,7 +28,8 @@
 // ===========================
 @import "./components/containers";
 @import "./components/headers";
-@import "./components/listItem";
-@import "./components/pagenation";
 @import "./components/footer";
+@import "./components/listItem";
 @import "./components/subItem";
+@import "./components/postItem";
+@import "./components/pagenation";

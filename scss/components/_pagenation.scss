@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 .Pagenation {
-    margin: 40px $size-margin-2column 0 10px;
+    margin: 40px $size-margin-2column 0 0;
 
     @include flex-row-nowrap;
     justify-content: space-between;

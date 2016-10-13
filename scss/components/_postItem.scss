@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+.PostItem {
+    max-width: $size-site-width/5*4;
+    @include header-leftcolumn-margin;
+    &__head {
+        @include border-left;
+    }
+    &__title {
+        font-size: 20px;
+    }
+    &__meta {
+        font-size: 16px;
+        color: $color-sub-text;
+        margin: 8px 0 0 0;
+        @include link-active;
+    }
+    &__body {
+        margin: 28px 0 0 12px;
+        @include link-active;
+    }
+
+// Hugo向けのためタグにCSSを定義する
+    h2 {
+        font-size: 18px;
+        margin: 48px 0 20px 0;
+        padding-bottom: 4px;
+        border-bottom: 1px solid $color-bottom-border;
+    }
+
+    h3 {
+        font-size: 18px;
+        margin: 8px 0 8px 0;
+    }
+
+    p {
+        line-height: 2;
+    }
+
+    li {
+        margin-left: 2rem;
+        line-height: 2;
+    }
+
+    code {
+        font-family: monospace;
+        font-size: 14px;
+    }
+
+    table {
+        border: 1px solid $color-bottom-border;
+        border-collapse: collapse;
+        border-spacing: 0;
+        margin: 12px 0;
+        font-size: 14px;
+    }
+
+    th {
+        background-color: $color-sub-white;
+        border: 1px solid $color-bottom-border;
+        padding: 4px 12px;
+    }
+
+    td {
+        border: 1px solid $color-bottom-border;
+        padding: 4px 12px;
+    }
+}

@@ -2407,10 +2407,75 @@ li {
   margin-left: 1rem;
   line-height: 2; }
 
+/*
+Monokai style - ported by Luigi Maselli - http://grigio.org
+*/
+.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  /*background: #272822; color: #ddd;*/
+  background: #434a54;
+  color: #fff; }
+
+.hljs-tag,
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-literal,
+.hljs-strong,
+.hljs-name {
+  color: #f92672; }
+
+.hljs-code {
+  color: #66d9ef; }
+
+.hljs-class .hljs-title {
+  color: white; }
+
+.hljs-attribute,
+.hljs-symbol,
+.hljs-regexp,
+.hljs-link {
+  color: #bf79db; }
+
+.hljs-string,
+.hljs-bullet,
+.hljs-subst,
+.hljs-title,
+.hljs-section,
+.hljs-emphasis,
+.hljs-type,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-selector-attr,
+.hljs-selector-pseudo,
+.hljs-addition,
+.hljs-variable,
+.hljs-template-tag,
+.hljs-template-variable {
+  color: #a6e22e; }
+
+.hljs-comment,
+.hljs-quote,
+.hljs-deletion,
+.hljs-meta {
+  /*color: #75715e;*/
+  color: #b3b0a0; }
+
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-literal,
+.hljs-doctag,
+.hljs-title,
+.hljs-section,
+.hljs-type,
+.hljs-selector-id {
+  font-weight: bold; }
+
 .AreaTitle {
   border-left: 4px solid #24aaef;
-  margin: 40px 20px 20px 0;
-  padding: 4px 0 4px 4px;
+  padding: 4px 0 4px 8px;
+  margin: 40px 0 20px 0;
   font-size: 24px;
   line-height: 1.25;
   color: #707c80; }
@@ -2475,40 +2540,6 @@ li {
   .Navi__item a {
     color: #fff; }
 
-.ListItem {
-  border-bottom: 1px solid #c1c7c9;
-  margin: 0 60px 20px 10px;
-  padding: 0 0 20px 0; }
-  .ListItem:last-of-type {
-    border-bottom: none;
-    margin: 0 60px 0 10px; }
-  .ListItem__head {
-    font-size: 18px; }
-  .ListItem__body {
-    font-size: 14px;
-    color: #707c80;
-    margin: 8px 0 0 0; }
-    .ListItem__body a {
-      color: #24aaef; }
-    .ListItem__body a:hover {
-      color: #f23d4c; }
-
-.Pagenation {
-  margin: 40px 60px 0 10px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-between; }
-  .Pagenation__older {
-    flex-basis: 45%; }
-  .Pagenation__newer {
-    flex-basis: 45%;
-    text-align: right; }
-  .Pagenation a {
-    color: #24aaef; }
-  .Pagenation a:hover {
-    color: #f23d4c; }
-
 .Footer {
   color: #707c80; }
   .Footer__head {
@@ -2525,11 +2556,97 @@ li {
     .Footer__body a:hover {
       color: #f23d4c; }
 
+.ListItem {
+  border-bottom: 1px solid #c1c7c9;
+  margin: 0 60px 20px 12px;
+  padding: 0 0 20px 0; }
+  .ListItem:last-of-type {
+    border-bottom: none;
+    margin: 0 60px 0 10px; }
+  .ListItem__head {
+    font-size: 18px; }
+  .ListItem__body {
+    font-size: 14px;
+    color: #707c80;
+    margin: 8px 0 0 0; }
+    .ListItem__body a {
+      color: #24aaef; }
+    .ListItem__body a:hover {
+      color: #f23d4c; }
+
 .SubItem {
-  margin: 0 0 0 10px; }
+  margin: 0 0 0 12px; }
   .SubItem ul {
     list-style: none; }
   .SubItem li {
     margin-left: 0; }
+
+.PostItem {
+  max-width: 800px;
+  margin: 40px 60px 20px 0; }
+  .PostItem__head {
+    border-left: 4px solid #24aaef;
+    padding: 4px 0 4px 8px; }
+  .PostItem__title {
+    font-size: 20px; }
+  .PostItem__meta {
+    font-size: 16px;
+    color: #707c80;
+    margin: 8px 0 0 0; }
+    .PostItem__meta a {
+      color: #24aaef; }
+    .PostItem__meta a:hover {
+      color: #f23d4c; }
+  .PostItem__body {
+    margin: 28px 0 0 12px; }
+    .PostItem__body a {
+      color: #24aaef; }
+    .PostItem__body a:hover {
+      color: #f23d4c; }
+  .PostItem h2 {
+    font-size: 18px;
+    margin: 48px 0 20px 0;
+    padding-bottom: 4px;
+    border-bottom: 1px solid #c1c7c9; }
+  .PostItem h3 {
+    font-size: 18px;
+    margin: 8px 0 8px 0; }
+  .PostItem p {
+    line-height: 2; }
+  .PostItem li {
+    margin-left: 2rem;
+    line-height: 2; }
+  .PostItem code {
+    font-family: monospace;
+    font-size: 14px; }
+  .PostItem table {
+    border: 1px solid #c1c7c9;
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin: 12px 0;
+    font-size: 14px; }
+  .PostItem th {
+    background-color: #dadedf;
+    border: 1px solid #c1c7c9;
+    padding: 4px 12px; }
+  .PostItem td {
+    border: 1px solid #c1c7c9;
+    padding: 4px 12px; }
+
+.Pagenation {
+  margin: 40px 60px 0 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between; }
+  .Pagenation__older {
+    flex-basis: 45%; }
+  .Pagenation__newer {
+    flex-basis: 45%;
+    text-align: right; }
+  .Pagenation a {
+    color: #24aaef; }
+  .Pagenation a:hover {
+    color: #f23d4c; }
 
 /*# sourceMappingURL=main.css.map */
