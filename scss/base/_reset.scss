@@ -5,7 +5,8 @@
 
 :root {
     font-family: "Monda", "Noto Sans JP", sans-serif;
-    letter-spacing: 0.12rem;
+    font-size: 15px;
+    letter-spacing: 0.8pt;
     color: $color-main-text;
 }
 
@@ -35,8 +36,6 @@ code {
 }
 
 p {
-    font-size: 15px;
     text-align: justify;
     line-height: 1.8em;
-    letter-spacing: 0.8pt;
 }
