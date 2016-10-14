@@ -2626,6 +2626,8 @@ Orginal Style from ethanschoonover.com/solarized (c) Jeremy Hull <sourdrums@gmai
     margin: 48px 0 20px 0;
     padding-bottom: 4px;
     border-bottom: 1px solid #c1c7c9; }
+    .PostItem h2:first-child {
+      margin-top: 0; }
   .PostItem h3 {
     font-size: 18px;
     margin: 8px 0 8px 0; }
@@ -2662,5 +2664,28 @@ Orginal Style from ethanschoonover.com/solarized (c) Jeremy Hull <sourdrums@gmai
     color: #24aaef; }
   .Pagenation a:hover {
     color: #f23d4c; }
+
+.Product {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start; }
+  .Product__head {
+    flex: 1 1 180px; }
+  .Product__body {
+    flex: 3 1 auto;
+    display: flex;
+    flex-direction: column; }
+  .Product__app {
+    width: 100px;
+    height: 100px;
+    border-radius: 12%; }
+  .Product__web {
+    width: 160px;
+    height: 120px; }
+  .Product__text {
+    align-items: flex-start; }
+  .Product__link {
+    align-self: flex-end; }
 
 /*# sourceMappingURL=main.css.map */
