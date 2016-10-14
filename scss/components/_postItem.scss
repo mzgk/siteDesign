@@ -26,6 +26,9 @@
         margin: 48px 0 20px 0;
         padding-bottom: 4px;
         border-bottom: 1px solid $color-bottom-border;
+        &:first-child {
+            margin-top: 0;
+        }
     }
 
     h3 {
