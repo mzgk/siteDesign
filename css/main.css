@@ -2675,7 +2675,8 @@ Orginal Style from ethanschoonover.com/solarized (c) Jeremy Hull <sourdrums@gmai
   .Product__body {
     flex: 3 1 auto;
     display: flex;
-    flex-direction: column; }
+    flex-direction: column;
+    justify-content: flex-start; }
   .Product__app {
     width: 100px;
     height: 100px;
@@ -2684,7 +2685,7 @@ Orginal Style from ethanschoonover.com/solarized (c) Jeremy Hull <sourdrums@gmai
     width: 160px;
     height: 120px; }
   .Product__text {
-    align-items: flex-start; }
+    align-self: flex-start; }
   .Product__link {
     align-self: flex-end; }
 

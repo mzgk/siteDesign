@@ -11,6 +11,7 @@
 
         display: flex;
         flex-direction: column;
+        justify-content: flex-start;
     }
     &__app {
         width: 100px;
@@ -22,8 +23,7 @@
         height: 120px;
     }
     &__text {
-        align-items: flex-start;
-        // margin-bottom: 20px;
+        align-self: flex-start;
     }
     &__link {
         align-self: flex-end;
