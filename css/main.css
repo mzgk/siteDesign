@@ -2499,6 +2499,10 @@ Orginal Style from ethanschoonover.com/solarized (c) Jeremy Hull <sourdrums@gmai
   line-height: 1.25;
   color: #707c80; }
 
+.AppStoreButton {
+  width: 135px;
+  height: 40px; }
+
 .HeaderContainer {
   height: 128px;
   background: #0d3d56;
